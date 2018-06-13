@@ -84,7 +84,7 @@ WMWssp_maximize = function(x, y, alpha = 0.05, N){
   cWMWssp$t <- mint
   cWMWssp$power <- power
   cWMWssp$alpha <- alpha
-  cWMWssp$simulation <- NULL
+  cWMWssp$simulation <- -1
   cWMWssp$N <- ceiling(N*mint)+ceiling(N*(1-mint))
   cWMWssp$call <- sys.call(sys.parent())[1L]
   class(cWMWssp) <- "WMWssp"
