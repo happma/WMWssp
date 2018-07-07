@@ -48,5 +48,7 @@ summary(ssp)
 }
 \references{
 Brunner, E., Bathke A. C. and Konietschke, F. Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS. Springer Verlag. to appear.
+
+Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. arXiv preprint arXiv:1805.12249.
 }
 \keyword{export}

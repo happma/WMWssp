@@ -1,8 +1,8 @@
 Package: WMWssp
 Type: Package
 Title: Wilcoxon-Mann-Whitney Sample Size Planning
-Version: 0.3.3
-Date: 2018-06-12
+Version: 0.3.4
+Date: 2018-07-07
 Authors@R: c(
     person("Arne C. Bathke", role = "aut"),
     person("Edgar Brunner", role = "aut"),

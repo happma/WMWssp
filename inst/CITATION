@@ -1,0 +1,14 @@
+citHeader("To cite WMWssp in publications, please use:")
+citEntry(entry = "Article",
+         title        = "Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.",
+         author       = personList(as.person("Martin Happ"),
+                                   as.person("Arne C. Bathke"),
+                                   as.person("Edgar Brunner")),
+         journal      = "arxiv preprint",
+         year         = "2018",
+         volume       = "",
+         number       = "",
+         pages        = "",
+         url          = "https://arxiv.org/abs/1805.12249",
+         textVersion  = paste("Happ, M., Bathke, A. C., & Brunner, E. (2018).","Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.","arXiv preprint.", "arXiv:1805.12249.", "URL: https://arxiv.org/abs/1805.12249")
+)
