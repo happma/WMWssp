@@ -21,4 +21,7 @@ test_that("function WMWssp_minimize", {
   expect_equivalent(WMWssp::WMWssp_minimize(x, y)$t, result_t_min, tolerance=1e-4)
   expect_equivalent(result_power, result_simpower)
   expect_output(summary(WMWssp::WMWssp_minimize(x, y)))
+  expect_output(print(WMWssp::WMWssp_minimize(x, y)))
+  expect_output(summary(WMWssp::WMWssp_minimize(x, y, simulation = TRUE, nsim = 10)))
+  expect_output(print(WMWssp::WMWssp_minimize(x, y, simulation = TRUE, nsim = 10)))
 })

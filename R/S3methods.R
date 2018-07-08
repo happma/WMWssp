@@ -14,7 +14,13 @@ print.WMWssp <- function(x, ...){
   cat(x$N, paste("(n_1 = ", ceiling(x$N*x$t), ", n_2 = ", ceiling(x$N*(1-x$t)), ")", sep = ""))
   cat("\n")
 
-  if(as.character(x$call) %in% c("WMWssp_minimize", "WMWssp_maximize") ) {
+  call <- x$call
+  temp <- strsplit(as.character(x$call), "::")
+  if(length(temp[[1]]) > 1) {
+    call <- temp[[1]][2]
+  }
+
+  if(as.character(call) %in% c("WMWssp_minimize", "WMWssp_maximize") ) {
     cat("Optimal allocation rate to the first group: ")
     cat(x$t)
     cat("\n")
@@ -30,7 +36,7 @@ print.WMWssp <- function(x, ...){
     cat("\n")
   }
 
-  if(as.character(x$call) %in% c("WMWssp_maximize")){
+  if(as.character(call) %in% c("WMWssp_maximize")){
     cat("Maximal Power: ")
     cat(x$power)
     cat("\n")
