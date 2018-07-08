@@ -322,9 +322,9 @@ WMWssp_noether=function(alpha,power,t, p, x=c(0), ties=FALSE){
     sigma2M <- 1/m1^3*sum((R1-(m1+1)/2)^2)
 
     # estimated sample size:
-    Nv <- sigma2M/(p-1/2)^2*(qnorm(1-alpha/2)+qnorm(power))^2*1/(t*(1-t))
-    n1v <- Nv*t
-    n2v <- Nv*(1-t)
+    Nu <- sigma2M/(p-1/2)^2*(qnorm(1-alpha/2)+qnorm(power))^2*1/(t*(1-t))
+    n1u <- Nu*t
+    n2u <- Nu*(1-t)
 
     # create data.frame for output
     output = data.frame(Results=1)
@@ -333,13 +333,13 @@ WMWssp_noether=function(alpha,power,t, p, x=c(0), ties=FALSE){
     #output[3,1]=qnorm(1-alpha/2)
     #output[4,1]=qnorm(power)
     output[3,1]=p
-    output[4,1]=Nv
+    output[4,1]=Nu
     output[5,1]=t
-    output[6,1]=n1v
-    output[7,1]=n2v
-    output[8,1]=ceiling(n1v)+ceiling(n2v)
-    output[9,1]=ceiling(n1v)
-    output[10,1]=ceiling(n2v)
+    output[6,1]=n1u
+    output[7,1]=n2u
+    output[8,1]=ceiling(n1u)+ceiling(n2u)
+    output[9,1]=ceiling(n1u)
+    output[10,1]=ceiling(n2u)
 
   }
   # case 2: no prior information, continuous case
