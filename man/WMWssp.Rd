@@ -4,8 +4,8 @@
 \alias{WMWssp}
 \title{Sample size calculation for the Wilcoxon-Mann-Whitney test.}
 \usage{
-WMWssp(x, y, alpha = 0.05, power = 0.8, t = 1/2, simulation = FALSE,
-  nsim = 10^4)
+WMWssp(x, y, alpha = 0.05, power = 0.8, t = 1/2,
+  simulation = FALSE, nsim = 10^4)
 }
 \arguments{
 \item{x}{prior information for the first group}
@@ -53,6 +53,6 @@ summary(ssp)
 \references{
 Brunner, E., Bathke A. C. and Konietschke, F. Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS. Springer Verlag. to appear.
 
-Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. arXiv preprint arXiv:1805.12249.
+Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. Statistics in medicine, 38(3), 363-375.
 }
 \keyword{export}

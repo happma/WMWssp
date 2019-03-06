@@ -5,7 +5,6 @@ sudo: false
 cache: packages
 
 r:
-  - oldrel
   - release
   - devel
 
@@ -13,6 +12,7 @@ r_check_args: '--as-cran --use-valgrind'
 
 env:
   - VALGRIND_OPTS='--leak-check=full --track-origins=yes'
+  - _R_CHECK_SYSTEM_CLOCK_=false
 
 addons:
   apt:

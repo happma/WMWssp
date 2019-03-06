@@ -23,7 +23,7 @@
 #' @return \item{N}{The total sample size which was used.}
 #' @example R/example_maximize.txt
 #' @references Brunner, E., Bathke A. C. and Konietschke, F. Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS. Springer Verlag. to appear.
-#' @references Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. arXiv preprint arXiv:1805.12249.
+#' @references Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. Statistics in medicine, 38(3), 363-375.
 #' @keywords export
 WMWssp_maximize = function(x, y, alpha = 0.05, N){
   stopifnot(all(is.finite(x)), all(is.finite(y)),
@@ -108,7 +108,7 @@ WMWssp_maximize = function(x, y, alpha = 0.05, N){
 #' @return \item{power}{The power which was used.}
 #' @return \item{N}{The minimized sample size.}
 #' @references Brunner, E., Bathke A. C. and Konietschke, F. Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS. Springer Verlag. to appear.
-#' @references Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. arXiv preprint arXiv:1805.12249.
+#' @references Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. Statistics in medicine, 38(3), 363-375.
 #' @example R/example_minimize.txt
 #' @keywords export
 WMWssp_minimize = function(x, y, alpha = 0.05, power = 0.8, simulation = FALSE, nsim = 10^4){
@@ -209,7 +209,7 @@ WMWssp_minimize = function(x, y, alpha = 0.05, power = 0.8, simulation = FALSE, 
 #' @return \item{power}{The power which was used.}
 #' @return \item{N}{The sample size needed.}
 #' @references Brunner, E., Bathke A. C. and Konietschke, F. Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS. Springer Verlag. to appear.
-#' @references Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. arXiv preprint arXiv:1805.12249.
+#' @references Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. Statistics in medicine, 38(3), 363-375.
 #' @example R/example_ssp.txt
 #' @keywords export
 WMWssp=function(x,y,alpha=0.05,power=0.8, t = 1/2, simulation = FALSE, nsim = 10^4){

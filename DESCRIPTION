@@ -23,5 +23,5 @@ License: GPL-3
 LazyData: TRUE
 URL: http://github.com/happma/WMWssp
 BugReports: http://github.com/happma/WMWssp/issues
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 Suggests: testthat
