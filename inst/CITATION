@@ -4,11 +4,11 @@ citEntry(entry = "Article",
          author       = personList(as.person("Martin Happ"),
                                    as.person("Arne C. Bathke"),
                                    as.person("Edgar Brunner")),
-         journal      = "arxiv preprint",
-         year         = "2018",
-         volume       = "",
-         number       = "",
-         pages        = "",
-         url          = "https://arxiv.org/abs/1805.12249",
-         textVersion  = paste("Happ, M., Bathke, A. C., & Brunner, E. (2018).","Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.","arXiv preprint.", "arXiv:1805.12249.", "URL: https://arxiv.org/abs/1805.12249")
+         journal      = "Statistics in Medicine",
+         year         = "2019",
+         volume       = "38",
+         number       = "3",
+         pages        = "363-375",
+         url          = "https://doi.org/10.1002/sim.7983",
+         textVersion  = paste("Happ, M., Bathke, A. C., & Brunner, E. (2019).","Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.","Statistics in Medicine;", "38(3), 363-375.", "URL: https://doi.org/10.1002/sim.7983")
 )

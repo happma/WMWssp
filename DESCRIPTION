@@ -1,8 +1,8 @@
 Package: WMWssp
 Type: Package
 Title: Wilcoxon-Mann-Whitney Sample Size Planning
-Version: 0.3.4
-Date: 2018-07-07
+Version: 0.3.5
+Date: 2018-03-06
 Authors@R: c(
     person("Arne C. Bathke", role = "aut"),
     person("Edgar Brunner", role = "aut"),
@@ -11,7 +11,6 @@ Authors@R: c(
                       comment = c(ORCID = "0000-0003-0009-2665")),
     person("Frank Konietschke", role = "aut")
   )
-Author: Arne C. Bathke [aut], Edgar Brunner [aut], Martin Happ [aut, cre], Frank Konietschke [aut]
 Maintainer: Martin Happ <martin.happ@aon.at>
 Description: Calculates the minimal sample size for the Wilcoxon-Mann-Whitney test
     that is needed for a given power and two sided type I error rate. The method works for metric data with and without

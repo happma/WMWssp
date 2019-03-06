@@ -1,4 +1,4 @@
-# WMWssp
+# WMWssp 0.3.5
 
 [![CRANstatus](https://www.r-pkg.org/badges/version/WMWssp)](https://cran.r-project.org/package=WMWssp)
 [![](https://cranlogs.r-pkg.org/badges/WMWssp)](https://cran.r-project.org/package=WMWssp)
@@ -11,7 +11,7 @@ For details, see
 
 Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear,
 
-Happ, M., Bathke, A. C., & Brunner, E. (2018). Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test. <a href="https://arxiv.org/abs/1805.12249">arXiv preprint arXiv:1805.12249.</a>
+<a href=" https://doi.org/10.1002/sim.7983">Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal sample size planning for the Wilcoxon‐Mann‐Whitney test. Statistics in medicine, 38(3), 363-375.</a>
 
 
 To install the current development version:

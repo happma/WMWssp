@@ -7,8 +7,10 @@ y <- x - 20
 # calculate sample size, true result
 result_WMWsspN <- 111.3719511
 result_WMWsspp <- 0.3491124
-result_power <- 0.9
+result_power <- 0.9 # 0.7
 
+#temporary fix
+suppressWarnings(RNGversion("3.5.0"))
 set.seed(1)
 result_simpower <- WMWssp::WMWssp(x, y, alpha = 0.05, power = 0.8, t = 1/2, simulation = TRUE, nsim = 10)$result[3, ]
 

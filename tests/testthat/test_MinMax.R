@@ -8,8 +8,10 @@ N <- 112
 # calculate sample size, true result
 result_t_max <- 0.4964661
 result_t_min <- 0.4964905
-result_power <- 0.9200000
+result_power <- 0.9200000 #0.76
 
+#temporary fix
+suppressWarnings(RNGversion("3.5.0"))
 set.seed(1)
 result_simpower <- summary(WMWssp::WMWssp_minimize(x, y, simulation = TRUE, nsim = 50))[3, ]
 
