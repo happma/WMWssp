@@ -1,4 +1,4 @@
-# WMWssp 0.3.5
+# WMWssp 0.3.7
 
 [![CRANstatus](https://www.r-pkg.org/badges/version/WMWssp)](https://cran.r-project.org/package=WMWssp)
 [![](https://cranlogs.r-pkg.org/badges/WMWssp)](https://cran.r-project.org/package=WMWssp)
