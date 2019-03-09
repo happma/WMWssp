@@ -17,7 +17,6 @@ Description: Calculates the minimal sample size for the Wilcoxon-Mann-Whitney te
     ties, count data, ordered categorical data, and even dichotomous data.
     But data is needed for the reference group to generate synthetic data for the treatment group based on a relevant effect.
     For details, see Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear.
-Imports: rankFD
 Depends: R (>= 3.4.0)
 License: GPL-3
 LazyData: TRUE
