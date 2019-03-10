@@ -22,7 +22,7 @@ asymptotic_wilcox_test <- function(x, y) {
   W_N = sqrt(n1*n2*1/N)*(mean(R2) - mean(R1))*1/sqrt(sigma_R_squared)
 
   p_value <- 2*min( pnorm(W_N), 1-pnorm(W_N) )
-  return(c(W_N,p_value))
+  return(p_value)
 }
 
 #' @keywords internal
@@ -37,9 +37,7 @@ sim_power <- function(x1,x2,nsim,n1,n2) {
     }
     z1 <- sample(x1, size = ceiling(n1), prob = NULL, replace = TRUE)
     z2 <- sample(x2, size = ceiling(n2), prob = NULL, replace = TRUE)
-    df = data.frame(grp = as.factor(c(rep(1,ceiling(n1)), rep(2,ceiling(n2)))), z = c(z1,z2) )
-
-    if(asymptotic_wilcox_test(z1,z2)[2] <= 0.05) {
+    if(asymptotic_wilcox_test(z1,z2) <= 0.05) {
       simpower <- simpower + 1
     }
   }
