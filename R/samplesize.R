@@ -175,7 +175,7 @@ WMWssp_minimize = function(x, y, alpha = 0.05, power = 0.8, simulation = FALSE, 
     simpower <- sim_power(x1,x2,nsim,n1,n2)
 
     output <- insert_row(output, simpower/nsim, 3)
-    rownames(output)[3] <- "Simulated Power"
+    rownames(output)=c("alpha (2-sided)","Power", "Simulated Power", "Estimated relative effect p", "N (total sample size needed)",  "t=n1/N", "n1 in Group 1", "n2 in Group 2", "N rounded for t = 1/2", "N rounded", "n1 rounded", "n2 rounded")
   }
 
   cWMWssp <- list()
@@ -264,7 +264,8 @@ WMWssp=function(x,y,alpha=0.05,power=0.8, t = 1/2, simulation = FALSE, nsim = 10
 
     simpower <- sim_power(x1,x2,nsim, n1, n2)
     output <- insert_row(output, simpower/nsim, 3)
-    rownames(output)[3] <- "Simulated Power"
+    rownames(output)=c("alpha (2-sided)","Power", "Simulated Power", "Estimated relative effect p", "N (total sample size needed)", "t=n1/N", "n1 in Group 1", "n2 in Group 2", "N rounded", "n1 rounded", "n2 rounded")
+
   }
 
   cWMWssp <- list()
