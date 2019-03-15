@@ -7,12 +7,7 @@
 [![codecov](https://codecov.io/gh/happma/WMWssp/branch/master/graph/badge.svg)](https://codecov.io/gh/happma/WMWssp)
 
 Calculates the minimal sample size for the Wilcoxon-Mann-Whitney test that is needed for a given power and two sided type I error rate. The method works for metric data with and without ties, count data, ordered categorical data, and even dichotomous data. But data is needed for the reference group to generate synthetic data for the treatment group based on a relevant effect.
-For details, see
-
-Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear,
-
-<a href=" https://doi.org/10.1002/sim.7983">Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal sample size planning for the Wilcoxon‐Mann‐Whitney test. Statistics in medicine, 38(3), 363-375.</a>
-
+For details, see for example [1] or [2].
 
 To install the current development version:
 
@@ -37,9 +32,17 @@ y <- x - 20
 ssp <- WMWssp(x, y, alpha = 0.05, power = 0.8, t = 1/2)
 summary(ssp)
 ```
-It is also possible to vary the allocation rate to even further reduce the sample size.
+It is also possible to vary the allocation rate to even further reduce the sample size. But for almost all situations, a balanced design will be optimal or close to optimal, see [2] or [3].
 ``` r
 # calculate optimal allocation rate t
 ssp <- WMWssp_minimize(x, y, alpha = 0.05, power = 0.8)
 summary(ssp)
 ```
+
+# References
+
+[1] Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear,
+
+[2] <a href=" https://doi.org/10.1002/sim.7983">Happ, M., Bathke, A. C., & Brunner, E. (2019). Optimal sample size planning for the Wilcoxon‐Mann‐Whitney test. Statistics in medicine, 38(3), 363-375.</a>
+
+[3] Bürkner, P‐C, Doebler, P, Holling, H. Optimal design of the Wilcoxon–Mann–Whitney‐test. Biom J. 2017; 59( 1): 25‐ 40. 
