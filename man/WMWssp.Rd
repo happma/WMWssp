@@ -16,7 +16,7 @@ WMWssp(x, y, alpha = 0.05, power = 0.8, t = 1/2,
 
 \item{power}{power}
 
-\item{t}{proportion of subjects in the first group}
+\item{t}{proportion of subjects in the first group; or use t = "min" to use optimal proportion rate}
 
 \item{simulation}{TRUE if a power simulation should be carried out}
 
