@@ -1,8 +1,7 @@
-# WMWssp 0.5.0
+# WMWssp 0.5.2
 
 [![CRANstatus](https://www.r-pkg.org/badges/version/WMWssp)](https://cran.r-project.org/package=WMWssp)
 [![](https://cranlogs.r-pkg.org/badges/WMWssp)](https://cran.r-project.org/package=WMWssp)
-[![codecov](https://codecov.io/gh/happma/WMWssp/branch/master/graph/badge.svg)](https://codecov.io/gh/happma/WMWssp)
 [![DOI](https://img.shields.io/badge/DOI-10.1002%2Fsim.7983-blue.svg)](http://dx.doi.org/10.1002/sim.7983)
 
 Calculates the minimal sample size for the Wilcoxon-Mann-Whitney test that is needed for a given power and two sided type I error rate. The method works for metric data with and without ties, count data, ordered categorical data, and even dichotomous data. But data is needed for the reference group to generate synthetic data for the treatment group based on a relevant effect.

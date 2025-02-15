@@ -8,5 +8,5 @@ bibentry("Article",
          volume       = "38",
          number       = "3",
          pages        = "363-375",
-         doi          = "0.1002/sim.7983",
+         doi          = "10.1002/sim.7983",
 )
