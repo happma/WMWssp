@@ -1,3 +1,6 @@
+# WMWssp 0.5.0
+* Removed lazydata
+
 # WMWssp 0.4.0
 * Added option to use optimal allocation rate for the function 'WMWssp' by using the argument t = "min"
 

@@ -2,7 +2,6 @@
 
 [![CRANstatus](https://www.r-pkg.org/badges/version/WMWssp)](https://cran.r-project.org/package=WMWssp)
 [![](https://cranlogs.r-pkg.org/badges/WMWssp)](https://cran.r-project.org/package=WMWssp)
-[![Build status](https://ci.appveyor.com/api/projects/status/1o3r47cxb7oejhpl?svg=true)](https://ci.appveyor.com/project/happma/wmwssp)
 [![codecov](https://codecov.io/gh/happma/WMWssp/branch/master/graph/badge.svg)](https://codecov.io/gh/happma/WMWssp)
 [![DOI](https://img.shields.io/badge/DOI-10.1002%2Fsim.7983-blue.svg)](http://dx.doi.org/10.1002/sim.7983)
 
