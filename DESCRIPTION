@@ -19,7 +19,6 @@ Description: Calculates the minimal sample size for the Wilcoxon-Mann-Whitney te
     For details, see Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear.
 Depends: R (>= 3.4.0)
 License: GPL-3
-LazyData: TRUE
 URL: http://github.com/happma/WMWssp
 BugReports: http://github.com/happma/WMWssp/issues
 RoxygenNote: 6.1.1
