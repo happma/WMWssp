@@ -1,7 +1,6 @@
-citHeader("To cite WMWssp in publications, please use:")
-citEntry(entry = "Article",
+bibentry("Article",
          title        = "Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.",
-         author       = personList(as.person("Martin Happ"),
+         author       = c(as.person("Martin Happ"),
                                    as.person("Arne C. Bathke"),
                                    as.person("Edgar Brunner")),
          journal      = "Statistics in Medicine",
@@ -9,6 +8,5 @@ citEntry(entry = "Article",
          volume       = "38",
          number       = "3",
          pages        = "363-375",
-         url          = "https://doi.org/10.1002/sim.7983",
-         textVersion  = paste("Happ, M., Bathke, A. C., & Brunner, E. (2019).","Optimal Sample Size Planning for the Wilcoxon-Mann-Whitney-Test.","Statistics in Medicine;", "38(3), 363-375.", "URL: https://doi.org/10.1002/sim.7983")
+         doi          = "0.1002/sim.7983",
 )
