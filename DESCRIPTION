@@ -16,7 +16,7 @@ Description: Calculates the minimal sample size for the Wilcoxon-Mann-Whitney te
     that is needed for a given power and two sided type I error rate. The method works for metric data with and without
     ties, count data, ordered categorical data, and even dichotomous data.
     But data is needed for the reference group to generate synthetic data for the treatment group based on a relevant effect.
-    For details, see Brunner, E., Bathke A. C. and Konietschke, F: Rank- and Pseudo-Rank Procedures in Factorial Designs - Using R and SAS, Springer Verlag, to appear.
+    See Happ et al. (2019, <doi:10.1002/sim.7983>) for details.
 Depends: R (>= 3.4.0)
 License: GPL-3
 URL: https://github.com/happma/WMWssp

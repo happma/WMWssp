@@ -32,16 +32,12 @@ sim_power <- function(x1,x2,nsim,n1,n2) {
   cat("Simulation:\n")
 
   for(i in 1:nsim){
-    if(i%%1000==0){
-      cat(paste(i, "/", nsim, "\n"))
-    }
     z1 <- sample(x1, size = ceiling(n1), prob = NULL, replace = TRUE)
     z2 <- sample(x2, size = ceiling(n2), prob = NULL, replace = TRUE)
     if(asymptotic_wilcox_test(z1,z2) <= 0.05) {
       simpower <- simpower + 1
     }
   }
-  cat("\n")
   return (simpower)
 }
 

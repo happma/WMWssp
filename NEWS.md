@@ -1,5 +1,5 @@
-# WMWssp 0.5.2
-* Removed lazydata and updated citation file
+# WMWssp 0.5.3
+* Removed lazydata and updated citation and description file
 
 # WMWssp 0.4.0
 * Added option to use optimal allocation rate for the function 'WMWssp' by using the argument t = "min"
